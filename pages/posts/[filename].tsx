@@ -1,5 +1,5 @@
 import { Post } from "../../components/posts/post";
-import databaseClient from "../tina/__generated__/databaseClient";
+import databaseClient from "../../tina/__generated__/databaseClient";
 import { useTina } from "tinacms/dist/react";
 import { Layout } from "../../components/layout";
 import { InferGetStaticPropsType } from "next";
