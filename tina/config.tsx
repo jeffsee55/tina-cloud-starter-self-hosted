@@ -22,8 +22,7 @@ export const isUserAllowed = (emailAddress: string) => {
   return false;
 };
 
-// const isLocal = process.env.TINA_PUBLIC_IS_LOCAL === "true";
-const isLocal = false;
+const isLocal = process.env.TINA_PUBLIC_IS_LOCAL === "true";
 
 const config = defineConfig({
   contentApiUrlOverride: "/api/graphql",
